@@ -2,6 +2,9 @@
 Changelog for package yaml_cpp_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+7.0.1 (2020-04-27)
+------------------
+
 7.0.0 (2019-09-19)
 ------------------
 * add .dsv file beside custom environment hook (`#7 <https://github.com/ros2/yaml_cpp_vendor/issues/7>`_)
