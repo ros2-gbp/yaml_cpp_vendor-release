@@ -1,1 +1,1 @@
-{"trim": "", "base": "7cab021", "trimbase": "", "parent": "release/foxy/yaml_cpp_vendor", "previous": "bc47dcd"}
+{"base": "5a3bb01", "parent": "release/rolling/yaml_cpp_vendor", "previous": "d313ca1", "trim": "", "trimbase": ""}
