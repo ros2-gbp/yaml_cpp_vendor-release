@@ -1,0 +1,12 @@
+Source: ros-rolling-yaml-cpp-vendor
+Section: misc
+Priority: optional
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-ros-workspace
+Homepage: https://github.com/jbeder/yaml-cpp
+Standards-Version: 3.9.2
+
+Package: ros-rolling-yaml-cpp-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-ros-workspace
+Description: Wrapper around yaml-cpp, it provides a fixed CMake module and an ExternalProject build of it.
