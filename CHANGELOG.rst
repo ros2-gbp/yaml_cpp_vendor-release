@@ -2,38 +2,10 @@
 Changelog for package yaml_cpp_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-8.1.0 (2022-09-13)
+7.0.3 (2022-09-23)
 ------------------
-* Sets CMP0135 policy behavior to NEW (`#36 <https://github.com/ros2/yaml_cpp_vendor/issues/36>`_)
-* Fixes policy CMP0135 warning for CMake >= 3.24 (`#35 <https://github.com/ros2/yaml_cpp_vendor/issues/35>`_)
-* build shared lib only if BUILD_SHARED_LIBS is set (`#34 <https://github.com/ros2/yaml_cpp_vendor/issues/34>`_)
-* Mirror rolling to master
-* Contributors: Audrow Nash, Cristóbal Arroyo, hannes09
-
-8.0.1 (2022-04-13)
-------------------
-* Add missing dependency on yaml-cpp (`#32 <https://github.com/ros2/yaml_cpp_vendor/issues/32>`_)
-* Contributors: Scott K Logan
-
-8.0.0 (2022-02-04)
-------------------
-* Upgrade to yaml-cpp 0.7.0 (`#25 <https://github.com/ros2/yaml_cpp_vendor/issues/25>`_)
-* Contributors: Chris Lalancette
-
-7.1.1 (2021-12-07)
-------------------
-* Update maintainers to Audrow Nash (`#26 <https://github.com/ros2/yaml_cpp_vendor/issues/26>`_)
-* Fix handling of CMAKE_C[XX]_FLAGS lists (`#24 <https://github.com/ros2/yaml_cpp_vendor/issues/24>`_)
-* Contributors: Christophe Bedard, Scott K Logan
-
-7.1.0 (2021-03-18)
-------------------
-* Always preserve source permissions in vendor packages (`#22 <https://github.com/ros2/yaml_cpp_vendor/issues/22>`_)
-* Add an override flag to force vendored build (`#21 <https://github.com/ros2/yaml_cpp_vendor/issues/21>`_)
-* Reapply "Use system installed yaml-cpp 0.6 if available (`#8 <https://github.com/ros2/yaml_cpp_vendor/issues/8>`_)" (`#16 <https://github.com/ros2/yaml_cpp_vendor/issues/16>`_)
-* Revert "Use system installed yaml-cpp 0.6 if available (`#8 <https://github.com/ros2/yaml_cpp_vendor/issues/8>`_)" (`#15 <https://github.com/ros2/yaml_cpp_vendor/issues/15>`_)
-* Use system installed yaml-cpp 0.6 if available (`#8 <https://github.com/ros2/yaml_cpp_vendor/issues/8>`_)
-* Contributors: Ivan Santiago Paunovic, Scott K Logan, Sean Yen
+* Export YAML_CPP_DLL define on Windows (`#30 <https://github.com/ros2/yaml_cpp_vendor/issues/30>`_)
+* Contributors: Akash
 
 7.0.2 (2020-05-26)
 ------------------
