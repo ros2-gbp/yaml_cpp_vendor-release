@@ -7,11 +7,10 @@ option(FORCE_BUILD_VENDOR_PKG
   OFF)
 
 find_package(ament_cmake REQUIRED)
-ament_add_default_options()
 
 # Avoid DOWNLOAD_EXTRACT_TIMESTAMP warning for CMake >= 3.24
 if (POLICY CMP0135)
-  cmake_policy(SET CMP0135 NEW)
+  cmake_policy(SET CMP0135 OLD)
 endif()
 
 macro(build_yaml_cpp)
@@ -28,9 +27,7 @@ macro(build_yaml_cpp)
   list(APPEND extra_cmake_args "-DYAML_CPP_BUILD_TESTS=OFF")
   list(APPEND extra_cmake_args "-DYAML_CPP_BUILD_TOOLS=OFF")
   list(APPEND extra_cmake_args "-DYAML_CPP_BUILD_CONTRIB=OFF")
-  if(BUILD_SHARED_LIBS)
-    list(APPEND extra_cmake_args "-DYAML_BUILD_SHARED_LIBS=ON")
-  endif()
+  list(APPEND extra_cmake_args "-DYAML_BUILD_SHARED_LIBS=ON")
   list(APPEND extra_cmake_args "-DCMAKE_CXX_COMPILER=${CMAKE_CXX_COMPILER}")
   list(APPEND extra_cmake_args "-DCMAKE_CXX_FLAGS=${CMAKE_CXX_FLAGS}")
 
