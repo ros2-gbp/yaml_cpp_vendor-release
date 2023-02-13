@@ -4,14 +4,17 @@
   schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="2">
   <name>yaml_cpp_vendor</name>
-  <version>8.1.1</version>
+  <version>8.1.2</version>
   <description>
     Wrapper around yaml-cpp, it provides a fixed CMake module and an ExternalProject build of it.
   </description>
-  <maintainer email="audrow@openrobotics.org">Audrow Nash</maintainer>
+
+  <maintainer email="scott@openrobotics.org">Scott K Logan</maintainer>
+
   <license>Apache License 2.0</license>  <!-- the contents of this package are Apache 2.0 -->
   <license>MIT</license>  <!-- yaml-cpp is MIT -->
 
+  <author email="audrow@openrobotics.org">Audrow Nash</author>
   <author email="william@osrfoundation.org">William Woodall</author>
 
   <url type="website">https://github.com/jbeder/yaml-cpp</url>
