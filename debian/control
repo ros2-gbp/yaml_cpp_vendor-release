@@ -1,0 +1,12 @@
+Source: ros-iron-yaml-cpp-vendor
+Section: misc
+Priority: optional
+Maintainer: Scott K Logan <scott@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), libyaml-cpp-dev, ros-iron-ament-cmake, ros-iron-ros-workspace
+Homepage: https://github.com/jbeder/yaml-cpp
+Standards-Version: 3.9.2
+
+Package: ros-iron-yaml-cpp-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libyaml-cpp-dev, ros-iron-ros-workspace
+Description: Wrapper around yaml-cpp, it provides a fixed CMake module and an ExternalProject build of it.
