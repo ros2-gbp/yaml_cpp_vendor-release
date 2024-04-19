@@ -1,1 +1,1 @@
-{"base": "359706e", "parent": "debian/rolling/yaml_cpp_vendor", "previous": "99095f9", "trim": "", "trimbase": ""}
+{"base": "db881e6", "parent": "debian/jazzy/yaml_cpp_vendor", "previous": "95d2092", "trim": "", "trimbase": ""}
