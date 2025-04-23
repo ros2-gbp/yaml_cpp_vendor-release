@@ -1,1 +1,1 @@
-{"base": "7fb2562", "parent": "debian/rolling/yaml_cpp_vendor", "previous": "56d285f", "trim": "", "trimbase": ""}
+{"base": "6e50ba22a993", "parent": "debian/kilted/yaml_cpp_vendor", "previous": "4201fa63f01d", "trim": "", "trimbase": ""}
